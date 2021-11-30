@@ -11,4 +11,4 @@ INSERT INTO curso (codigo, nombre, descripcion, turno, cupo) values (102, "Matem
 INSERT INTO curso (codigo, nombre, descripcion, turno, cupo) values (103, NULL, NULL, "Tarde", 30);
 INSERT INTO curso (codigo, nombre, descripcion, turno, cupo) values (101, "Literatura", "Literatura contemporanea", "Mañana", 35);
 update curso set cupo = 25;
-delete from curso WHERE codigo = 103;
+delete from curso WHERE nombre = "Algoritmos";
